@@ -61,7 +61,8 @@ def history_C1(message):
 
     @bot.message_handler(regexp='Для чего?')
     def for_what(message):
-        text = 'зачастую игры'
+        text = ('C++ используют для создания программного обеспечения разного рода: от игр до операционных систем. '
+                'Этот язык также широко применяется в интенсивной обработке данных и научных расчётах.')
         bot.send_message(message.chat.id,
                          text)
 
@@ -110,7 +111,9 @@ def history_Pascal(message):
 
     @bot.message_handler(regexp='Для чего?')
     def for_what(message):
-        text = 'зачастую игры'
+        text = ('Паскаль используют для создания программных кодов, обучения основам структурной разработки, '
+                'автоматизации производственных процессов, программирования устройств с микропроцессорами и создания '
+                'специализированного программного обеспечения для бытовой техники и электроники.')
         bot.send_message(message.chat.id,
                          text)
 
@@ -157,7 +160,8 @@ def history_C2(message):
 
     @bot.message_handler(regexp='Для чего?')
     def for_what(message):
-        text = 'зачастую игры'
+        text = ('C# используют для создания различных типов приложений, включая веб-приложения, мобильные приложения, '
+                'десктопные приложения и игры.')
         bot.send_message(message.chat.id,
                          text)
 
@@ -208,7 +212,8 @@ def history_python(message):
 
     @bot.message_handler(regexp='Для чего?')
     def for_what(message):
-        text = 'зачастую игры'
+        text = ('Python используют для веб-разработки, тестирования, машинного обучения, анализа данных и создания '
+                'парсеров.')
         bot.send_message(message.chat.id,
                          text)
 
@@ -263,7 +268,8 @@ def history_java(message):
 
     @bot.message_handler(regexp='Для чего?')
     def for_what(message):
-        text = 'зачастую игры'
+        text = ('Java используют для создания серверных приложений, веб-приложений, мобильных приложений, игр и других '
+                'видов программного обеспечения.')
         bot.send_message(message.chat.id,
                          text)
 
@@ -311,7 +317,8 @@ def history_java_script(message):
 
     @bot.message_handler(regexp='Для чего?')
     def for_what(message):
-        text = 'зачастую игры'
+        text = ('JavaScript используют для создания интерактивных веб-страниц, передачи информации между пользователем '
+                'и сервером, анимации объектов и выполнения вычислений на стороне клиента или сервера.')
         bot.send_message(message.chat.id,
                          text)
 
@@ -361,7 +368,8 @@ def history_basic(message):
 
     @bot.message_handler(regexp='Для чего?')
     def for_what(message):
-        text = 'зачастую игры'
+        text = ('Бейсик используют для разработки прикладных программ, работающих под управлением ОС Windows, '
+                'а также как встроенный язык программных систем и язык программирования калькуляторов.')
         bot.send_message(message.chat.id,
                          text)
 
